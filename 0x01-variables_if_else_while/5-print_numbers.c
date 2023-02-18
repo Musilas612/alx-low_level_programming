@@ -1,18 +1,16 @@
-#include <stdlib.h>
-#Incude <stdio.h>
+#include <stdio.h>
+
 /**
- * main - Entry
- * Return: Always 0
+ * main - prints all single digit numbers of base
+ * 10 starting from 0, followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i = 0;
+	int n;
 
-	while (i < 10)
-	{
-		putchar(i + '0');
-		i++;
-	}
-	putchar('\n');
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
 	return (0);
 }
