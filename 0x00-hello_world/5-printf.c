@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
-* main - Entry
-* Return: Always 0
+*main - Entry Point
+*Return: Always 0 (Success)
 */
+
 int main(void)
 {	
-	printf("%s\n","with proper grammar, but the outcome is a piece of art,");
+	puts("\","with proper grammar, but the outcome is a piece of art,");
         return (0);
 }
