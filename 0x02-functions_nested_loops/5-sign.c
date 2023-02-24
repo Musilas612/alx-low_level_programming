@@ -5,7 +5,7 @@
  *
  * @n: function parameter
  *
- * Returns: 1, 0 and -1
+ * Return: 1, 0 and -1
  */
 
 
